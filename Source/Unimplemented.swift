@@ -1,6 +1,6 @@
 import RxSwift
 
-func RxSwift.unimplementedFunction(file: String = #file, function: String = #function, line: Int = #line) {
+func unimplementedFunction(file: String = #file, function: String = #function, line: Int = #line) {
     fatalError("Unimplemented function \(function) in \(file):\(line)")
 }
 
